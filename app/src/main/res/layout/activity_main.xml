@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:text="Listado de Contactos"
+   android:gravity="center_horizontal"
+    android:layout_marginTop="5sp"
+    android:textColor="@color/black"
+
+    />
+
+   <ListView
+       android:id="@+id/LstOpciones"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+      android:layout_margin="5sp"
+       android:layout_marginTop="15sp"
+       >
+
+   </ListView>
+   </LinearLayout>
+</LinearLayout>
